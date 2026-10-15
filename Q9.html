@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="appointment">
+        <li>Date:15/10/26</li>
+    </ul>
+
+    <script>
+        let details = "Dentist";
+
+        let li = document.createElement("li");
+        li.textContent = details;
+        
+        let ul = document.getElementById("appointment");
+        ul.appendChild(li);
+
+    </script>
+</body>
+</html>
